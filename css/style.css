@@ -74,7 +74,6 @@ a {
   font-size: 16px;
   color: #454547;
   text-decoration: none;
-  text-transform: capitalize;
 }
 
 a:hover {
@@ -260,7 +259,7 @@ footer {
 }
 
 #contacts {
-  padding: 100px;
+  padding: 100px 10px;
 }
 
 #contacts section {
@@ -272,12 +271,13 @@ footer {
 }
 
 #contacts section h3 {
+  font-size: 2em;
   margin-bottom: 15%;
 }
 
 #contacts section .all-contacts {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
   height: 100%;
@@ -285,7 +285,6 @@ footer {
 }
 
 #contacts section .all-contacts .soc {
-  width: 100%;
   height: 100%;
   padding: 10px;
   margin: 0 3%;
@@ -293,6 +292,7 @@ footer {
   border: 4px solid silver;
   box-shadow: 0 0 10px aquamarine;
 }
+
 
 #contacts section .all-contacts .soc a {
   display: flex;
@@ -317,8 +317,8 @@ footer {
 #cv section .soc {
   font-weight: 900;
   font-size: 2em;
-  width: 100%;
   display: flex;
+  width: 100%;
   justify-content: center;
   flex-direction: column;
   height: 100%;
@@ -348,3 +348,4 @@ footer {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
