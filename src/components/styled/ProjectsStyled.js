@@ -23,8 +23,9 @@ export const ProjectContainer = styled.div`
   }
 
   h2 {
-    margin-bottom: 10px;
+    margin: 20px auto;
     font-size: 35px;
+    font-weight: bolder;
     font-wight: bolder;
   }
 

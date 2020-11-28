@@ -8,6 +8,7 @@ import {
 const Projects = () => {
   return (
     <ProjectsStyled>
+      <ProjectContainer><h2>My Projects</h2></ProjectContainer>
       <ProjectLink href='https://demetreus420.github.io/usof/'>
         <ProjectContainer>
           <h3>USOF</h3>
@@ -20,7 +21,7 @@ const Projects = () => {
       <ProjectLink href="https://demetreus420.github.io/ustore/">
         <ProjectContainer>
           <h3>USTORE</h3>
-          <p>This is my tobacco store coded with pure JS, HTML and SCSS.</p>
+          <p>This is my store coded with pure JS, HTML and SCSS.</p>
         </ProjectContainer>
       </ProjectLink>
       <ProjectLink href='https://demetreus420.github.io/frontend-game/'>
